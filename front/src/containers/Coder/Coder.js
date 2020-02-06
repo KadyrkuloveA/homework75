@@ -25,7 +25,7 @@ const Coder = (props) => {
             "password": props.password
         };
         if (props.password) {
-            props.encodeMessage(message);
+            props.decodeMessage(message);
         } else {
             alert('Invalid Password');
         }
